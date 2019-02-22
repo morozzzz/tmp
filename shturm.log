@@ -2,3 +2,12 @@
 16:50:52.583 INFO  getForm() --> Try №1 -- SUCCESS 
 16:50:54.620 INFO  register() --> Try №1 SUCCESS 
 16:50:56.621 INFO  register() --> Спасибо! Ваши данные внесены! 
+16:55:00.607 INFO  getFirstResponse() --> Try №1 -- SUCCESS -- Status: 200 
+16:55:03.087 INFO  getForm() --> Try №1 -- SUCCESS 
+16:55:05.118 INFO  register() --> Try №1 SUCCESS 
+16:55:07.118 INFO  register() --> Спасибо! Ваши данные внесены! 
+17:01:16.321 INFO  getFirstResponse() --> Try №1 -- SUCCESS -- Status: 200 
+17:01:18.898 INFO  getForm() --> Try №1 -- SUCCESS 
+17:01:21.166 INFO  register() --> Try №1 SUCCESS 
+17:01:23.167 INFO  register() --> Спасибо! Ваши данные внесены! 
+17:02:24.532 INFO  getFirstResponse() --> Try №1 -- SUCCESS -- Status: 200 

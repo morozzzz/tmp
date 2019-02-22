@@ -31,11 +31,8 @@ const LIMIT_OF_GET_TRIES = DURATION_OF_FORM_GETTING * 60000 / PAUSE_BETWEEN_TRIE
  
 const sendData = options => request(REGISTRATION_URL, { method: 'POST', ...options })
     .catch((err) => {
-
         logger.log('error', 'sendData() --> ', REGISTRATION_URL, 'MESSAGE:', err);
     });
-
-    
 
 const getData = options => request(LINK_TO_CHECK, { method: 'GET', ...options })
     .catch((err) => {
@@ -106,10 +103,6 @@ async function getFirstResponse() {
         count++;
 
         logger.info('getFirstResponse() --> Try №', count, ` -- ${isSuccessful ? 'SUCCESS' : 'FAIL'}`, ' -- Status: ', response.statusCode);
-
-        if (isSuccessful === 200) {
-            return response;
-        }
 
         await wait(PAUSE_BETWEEN_TRIES);
     }
