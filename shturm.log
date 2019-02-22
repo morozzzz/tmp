@@ -1,0 +1,4 @@
+16:50:50.075 INFO  getFirstResponse() --> Try №1 -- SUCCESS -- Status: 200 
+16:50:52.583 INFO  getForm() --> Try №1 -- SUCCESS 
+16:50:54.620 INFO  register() --> Try №1 SUCCESS 
+16:50:56.621 INFO  register() --> Спасибо! Ваши данные внесены! 
